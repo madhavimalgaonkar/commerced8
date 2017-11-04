@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.to_wear
+  module:
+    - views
+  theme:
+    - belgrade
+id: exposedformto_wearto_wear_page_1
+theme: belgrade
+region: header
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:to_wear-to_wear_page_1'
+settings:
+  id: 'views_exposed_filter_block:to_wear-to_wear_page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: shoppers_payment_gateway
+label: 'Shoppers Payment Gateway'
+weight: null
+plugin: paypal_express_checkout
+configuration:
+  api_username: madhavim2694-facilitator_api1.gmail.com
+  api_password: SG7S257A7A7S2PVV
+  shipping_prompt: shipping_skip
+  signature: ASxxh5DTihPxlbiBeDFil0YFwAW1ARW18J-duXV.soWj7Wy8eCCpBsye
+  solution_type: SoleLogin
+  display_label: PayPal
+  mode: test
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

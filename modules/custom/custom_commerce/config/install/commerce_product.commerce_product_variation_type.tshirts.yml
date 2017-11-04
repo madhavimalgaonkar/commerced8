@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tshirts
+label: tshirts
+orderItemType: default
+generateTitle: true
+traits: {  }
