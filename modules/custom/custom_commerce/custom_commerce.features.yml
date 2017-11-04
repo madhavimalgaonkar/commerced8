@@ -1,4 +1,1 @@
-excluded:
-  - field.storage.commerce_product.field_category
-  - field.storage.commerce_product.field_image
 required: true
