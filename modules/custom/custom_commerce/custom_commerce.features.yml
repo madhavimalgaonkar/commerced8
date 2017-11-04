@@ -1,1 +1,3 @@
+excluded:
+  - block.block.exposedformto_wearto_wear_page_1
 required: true
